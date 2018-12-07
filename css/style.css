@@ -1,0 +1,10 @@
+#div-content{
+    display: flex;
+    flex-direction: column;
+}
+#flowers{
+    cursor: pointer;
+}
+#border{
+    border: solid red
+}

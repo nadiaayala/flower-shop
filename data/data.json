@@ -1,0 +1,7 @@
+{
+    "events" :
+    [
+        {"name": "Sunflower", "image":"img/sunf-roses.jpg"},
+        {"name": "Tulips", "image": "img/tulips.jpg"}
+    ]
+}
