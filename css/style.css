@@ -12,7 +12,7 @@ a{
 }
 .flowers{
     cursor: pointer;
-    background-color: grey;  
+    background-color: rgb(211,211,211);
 }
 .flowers:hover{
     background-color:rgb(218,112,214);
@@ -28,7 +28,7 @@ a{
     margin-bottom: 30px;
 }
 .text-product{
-    font-size: 20pt;
+    font-size: 18pt;
 }
 .btn-buy{
     background-color:rgb(218,112,214);
@@ -38,3 +38,6 @@ a{
 .btn-buy:hover{
     color: white;
 }
+/* #cart{
+    margin-left: 620px;
+} */
