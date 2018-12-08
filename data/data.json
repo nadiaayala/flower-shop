@@ -1,7 +1,9 @@
 {
     "events" :
     [
-        {"name": "Sunflower", "image":"img/sunf-roses.jpg"}
+        {"name": "Sunflowers with roses", "image":"img/sunf-roses.jpg"},
+        {"name": "Sunflowers", "image":"img/sunflower-bouquet2.jpg"},
+        {"name": "Sunflowers with white roses", "image":"img/sunflower-bouquet.jpg"}
         
     ]    
 }

@@ -1,6 +1,7 @@
 var tulips = document.getElementById('tulips');
 var sunflowers = document.getElementById('sunflowers');
 var roses = document.getElementById('roses');
+var btnBuy = '<a href="#" class="btn btn-lg btn-buy"><img src="../img/shopping.png"/> BUY</a>';
 
 
 sunflowers.addEventListener('click', function(){   
@@ -16,12 +17,13 @@ sunflowers.addEventListener('click', function(){
             responseObject = JSON.parse(request.responseText);
             var content = '';
             for (var i = 0; i < responseObject.events.length; i++) {
-                content += '<div>';
+                content += '<div class="text-center">';
                 content += '<img src="' + responseObject.events[i].image + '">';
-                content += '<p>' + responseObject.events[i].name + '</p>';
+                content += '<p class="text-center text-product">' + responseObject.events[i].name + '</p>'+ btnBuy;
                 content += '</div>';
+                
             }
-            document.getElementById('div-content').innerHTML = content +"<br>";
+            document.getElementById('div-content').innerHTML = content ;
         }
     };
     request.open('GET', 'data/data.json', true);
@@ -42,7 +44,7 @@ tulips.addEventListener('click', function(){
             for (var i = 0; i < responseObject.events.length; i++) {
                 content += '<div>';
                 content += '<img src="' + responseObject.events[i].image + '">';
-                content += '<p>' + responseObject.events[i].name + '</p>';
+                content += '<p class="text-center text-product">' + responseObject.events[i].name + '</p>';
                 content += '</div>';
             }
             document.getElementById('div-content').innerHTML = content +"<br>";
@@ -66,7 +68,7 @@ roses.addEventListener('click', function(){
             for (var i = 0; i < responseObject.events.length; i++) {
                 content += '<div>';
                 content += '<img src="' + responseObject.events[i].image + '">';
-                content += '<p>' + responseObject.events[i].name + '</p>';
+                content += '<p class="text-center text-product">' + responseObject.events[i].name + '</p>';
                 content += '</div>';
             }
             document.getElementById('div-content').innerHTML = content +"<br>";

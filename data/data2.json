@@ -1,6 +1,8 @@
 {
     "events":
     [
-        {"name": "Tulips", "image": "img/tulips.jpg"}
+        {"name": "Tulips", "image": "img/tulips.jpg"},
+        {"name": "Pink tulips", "image": "img/tulips2.jpg"},
+        {"name": "Yellow tulips", "image": "img/tulips-yellow.jpg"}
     ]
 }

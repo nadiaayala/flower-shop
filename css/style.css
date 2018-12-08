@@ -3,11 +3,19 @@ nav{
 }
 #div-content{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+a{
+    text-decoration: none;
 }
 .flowers{
     cursor: pointer;
     background-color: grey;  
+}
+.flowers:hover{
+    background-color:rgb(218,112,214);
 }
 .flowers.active{
     background-color:rgb(218,112,214) !important;  
@@ -16,5 +24,17 @@ nav{
     background-image: url('../img/banner.jpg');
     opacity: 0.8;
     background-size: cover;
-    height: 400px;  
+    height: 400px;
+    margin-bottom: 30px;
+}
+.text-product{
+    font-size: 20pt;
+}
+.btn-buy{
+    background-color:rgb(218,112,214);
+    color: white;
+    font-weight: bold;
+}
+.btn-buy:hover{
+    color: white;
 }
