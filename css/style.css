@@ -1,10 +1,20 @@
+nav{
+    height: 80px !important;
+}
 #div-content{
     display: flex;
     flex-direction: column;
 }
-#flowers{
+.flowers{
     cursor: pointer;
+    background-color: grey;  
 }
-#border{
-    border: solid red
+.flowers.active{
+    background-color:rgb(218,112,214) !important;  
+}
+#banner{
+    background-image: url('../img/banner.jpg');
+    opacity: 0.8;
+    background-size: cover;
+    height: 400px;  
 }
